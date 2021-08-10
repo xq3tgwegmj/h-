@@ -1,11 +1,10 @@
-print("HBE executed")
 --dont execute more than once
 
 ---------------------------------------------------------------------------------------------
-local size = Vector3.new(6,6,6) --change numbrs to whatevr u want | original - (8,8,8) (studs)
-local toggleKey = Enum.KeyCode.M --change letter to whatevr u want | original - M
-local teamCheckToggleKey = Enum.KeyCode.T --change letter to whatevr u want | original - T
-local visibleToggleKey = Enum.KeyCode.P--change letter to whatevr u want | original - P
+getgenv().size = Vector3.new(6,6,6) --change numbrs to whatevr u want | original - (8,8,8) (studs)
+getgenv().toggleKey = Enum.KeyCode.M --change letter to whatevr u want | original - M
+getgenv().teamCheckToggleKey = Enum.KeyCode.T --change letter to whatevr u want | original - T
+getgenv().visibleToggleKey = Enum.KeyCode.V--change letter to whatevr u want | original - P
 ---------------------------------------------------------------------------------------------
 
 --no touch beyond here
