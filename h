@@ -10,9 +10,9 @@ getgenv().visibleToggleKey = Enum.KeyCode.V--change letter to whatevr u want | o
 --no touch beyond here
 
 --variables
-local toggle = false
-local teamCheck = true
-local visible = true
+getgenv().toggle = false
+getgenv().teamCheck = true
+getgenv().visible = true
 local UIS = game:GetService("UserInputService")
 
 --functions
