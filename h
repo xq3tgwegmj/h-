@@ -14,6 +14,7 @@ function giveHBE()
                         v.Character.HumanoidRootPart.CanCollide = false
                         v.Character.HumanoidRootPart.BrickColor = v.TeamColor
                         v.Character.HumanoidRootPart.Material = Enum.Material.ForceField
+                        v.Character.HumanoidRootPart.Massless = true
                         if getgenv().visible then
                             v.Character.HumanoidRootPart.Transparency = 0.6
                         else
@@ -25,6 +26,7 @@ function giveHBE()
                             v.Character.HumanoidRootPart.CanCollide = false
                             v.Character.HumanoidRootPart.BrickColor = v.TeamColor
                             v.Character.HumanoidRootPart.Material = Enum.Material.ForceField
+                            v.Character.HumanoidRootPart.Massless = true
                             if getgenv().visible then
                                 v.Character.HumanoidRootPart.Transparency = 0.6
                             else
